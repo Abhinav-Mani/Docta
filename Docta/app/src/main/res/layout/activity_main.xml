@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:background="@color/teal_200"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="247dp" />
+
+    <TextView
+        android:id="@+id/diseaseName"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Disease bY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF" />
+
+    <Button
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Uploading Image" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Symptoms" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/medical_history"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="71dp"
+            android:layout_marginBottom="176dp"
+            android:text="Medical Record"
+            app:layout_constraintHorizontal_bias="0.395" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_weight="0"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="176dp" />
+
+    </LinearLayout>
+</LinearLayout>
+

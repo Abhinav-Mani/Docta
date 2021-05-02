@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654541419068",
+    "project_id": "medic-bdfbc",
+    "storage_bucket": "medic-bdfbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654541419068:android:e64a2ac5e96eb9305b8939",
+        "android_client_info": {
+          "package_name": "com.example.medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654541419068-15fvq4hjk6vvgq65gm4v9m582grqdt5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNh67wTInzrbjywU6day_F7BPKT7VFq5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654541419068-15fvq4hjk6vvgq65gm4v9m582grqdt5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
